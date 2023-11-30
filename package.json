@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "test": "NODE_ENV=test nodemon server.js",
+    "start": "NODE_ENV=production node server.js",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@hookform/error-message": "^2.0.1",
+    "@nextui-org/react": "^1.0.0-beta.13",
+    "babel-plugin-styled-components": "^2.1.4",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.5.2",
+    "net": "^1.0.2",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.2",
+    "sequelize": "^6.32.1",
+    "tls": "^0.0.1"
+  }
+}
